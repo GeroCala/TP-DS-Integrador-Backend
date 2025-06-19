@@ -1,0 +1,90 @@
+{
+  "alumnos": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "legajo" : "12345",
+      "dni": "12345678",
+      "carrera": "Ingeniería en Sistemas",
+      "cv_url": "https://ejemplo.com/cv.pdf"
+    },
+    {
+      "id": 2,
+      "nombre": "María",
+      "apellido": "Gómez",
+      "legajo" : "54321",
+      "dni": "87654321",
+      "carrera": "Ingeniería en Electrónica",
+      "cv_url": "https://ejemplo.com/cv.pdf"
+    }
+  ],
+  "empresas": [
+    {
+      "id": 1,
+      "usuario_id": 2,
+      "nombre": "Arcor",
+      "cuit": "123456",
+      "direccion": "Calle Ejemplo 123",
+      "descripcion": "Empresa dedicada al desarrollo de software"
+    },
+    {
+      "id": 2,
+      "usuario_id": 3,
+      "nombre": "Codeclaud",
+      "cuit": "987654",
+      "direccion": "Av. Tecnología 456",
+      "descripcion": "Empresa especializada en desarrollo de soluciones cloud"
+    }
+  ],
+  "pasantias": [
+    {
+      "id": 1,
+      "empresa_id": 1,
+      "titulo": "Pasante Desarrollador",
+      "descripcion": "Pasantía para desarrollo de software",
+      "requisitos": "Conocimientos en JavaScript y React",
+      "duracion": "6 meses",
+      "horario": "Lunes a Viernes 9-13hs",
+      "estado": "activa",
+      "interesados": 0,
+      "created_at": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "empresa_id": 1,
+      "titulo": "Pasante QA",
+      "descripcion": "Pasantía para testing de software",
+      "requisitos": "Conocimientos en testing y automatización",
+      "duracion": "4 meses",
+      "horario": "Lunes a Viernes 14-18hs",
+      "estado": "activa",
+      "interesados": 0,
+      "created_at": "2023-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "empresa_id": 2,
+      "titulo": "Pasante Cloud Developer",
+      "descripcion": "Pasantía para desarrollo de aplicaciones cloud",
+      "requisitos": "Conocimientos en AWS, Azure o Google Cloud",
+      "duracion": "6 meses",
+      "horario": "Lunes a Viernes 9-15hs",
+      "estado": "activa",
+      "interesados": 0,
+      "created_at": "2023-11-01T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "empresa_id": 2,
+      "titulo": "Pasante DevOps",
+      "descripcion": "Pasantía para implementación de CI/CD y automatización",
+      "requisitos": "Conocimientos en Docker, Jenkins y Git",
+      "duracion": "5 meses",
+      "horario": "Lunes a Viernes 13-18hs",
+      "estado": "activa",
+      "interesados": 0,
+      "created_at": "2023-11-01T00:00:00.000Z"
+    }
+  ]
+}
